@@ -116,8 +116,13 @@ Description: "PCT Good Faith Estimate Professional is a profile for capturing su
 * careTeam.qualification
 * careTeam.qualification from $USCPROCROLE (required)
 * careTeam contains
+   attending 0..1 MS and
    rendering 0..* and
    referring 0..1
+* careTeam[attending].role = PCTCareTeamRole#attending
+//* careTeam[attending] ^short = "May be used for the Institutional case only"
+* careTeam[attending].provider only Reference(PCTPractitioner)
+* careTeam[attending].qualification 1..1 MS
 * careTeam[rendering].role = PCTCareTeamRole#rendering
 //* careTeam[rendering] ^short = "May be used for the Institutional/Professional case"
 * careTeam[rendering].qualification 1..1

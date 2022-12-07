@@ -35,8 +35,8 @@ Description: "The No Surprises Act requires that group health plans and insurers
 // * provider.extension contains ProviderContractingRate named contractingRate 0..1 MS
 //* provider.extension contains OutOfNetworkProviderInfo named outOfNetworkProviderInfo 0..1 MS
 
-* priority MS
-* priority from $PROCPRIORITYVS (required)
+* priority
+* priority from $PROCPRIORITYVS
 
 
 * claim 1..1 MS

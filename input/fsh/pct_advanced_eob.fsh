@@ -47,7 +47,7 @@ Description: "The No Surprises Act requires that group health plans and insurers
 * claim.identifier.value 1..1 MS
 
 
-* insurance.coverage only Reference(PCTCoverage)
+* insurance.coverage only Reference(PCTCoverage) MS
 
 * benefitPeriod 1..1 MS
 
